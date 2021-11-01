@@ -39,7 +39,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
  }
 
  h2 {
-     font-size: 1.75em;
+     font-size: 1.3em;
      text-align: center;
  }
 
@@ -118,6 +118,11 @@ You will find this is far easier than the opposite task of using CSS to cram you
          text-align: justify;
      }
 
+      h3 {
+     font-size: .8em;
+     text-align: justify;
+ }
+
      .icon-container h6 {
          font-size: 2.5em;
          text-align: justify;
@@ -142,13 +147,21 @@ You will find this is far easier than the opposite task of using CSS to cram you
      /* Any adjustments for desktop and larger go here.
     Note these styles will be applied to anything 729px or larger -- so desktop */
      h3 {
-         font-size: 1.2em;
+         font-size: 1em;
          text-align: justify;
+         padding-top: 0px;
+         padding-right: 120px;
+         padding-bottom: 0px;
+         padding-left: 120px;
      }
 
      p {
-         font-size: 1.5em;
+         font-size: 1.1em;
          text-align: justify;
+         padding-top: 0px;
+         padding-right: 160px;
+         padding-bottom: 0px;
+         padding-left: 160px;
      }
 
      .icon-container h6 {
